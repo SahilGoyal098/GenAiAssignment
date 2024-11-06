@@ -47,3 +47,5 @@ To start the server, run the following command:
 
 ```bash
 uvicorn main:app --reload
+
+Note: This setup provides a foundational way to implement an API server with FastAPI, integrate document storage using ChromaDB, and generate embeddings with sentence-transformers. The server will respond to queries by retrieving the closest document matches based on similarity scores, but results may not always be perfectly accurate or contextually correct. This example is intended to demonstrate an approach to setting up a RAG pipeline with FastAPI and can be customized and fine-tuned for improved performance in specific applications.
